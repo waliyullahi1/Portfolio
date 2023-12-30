@@ -1,14 +1,27 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  modules: [
-    'vue3-carousel-nuxt'
-  ],
-  css: ['~/assets/main.css'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
+	pages: true,
+	modules: [
+		'vue3-carousel-nuxt'
+	  ],
+	css: [
+		'@/assets/scss/default.scss','~/assets/main.css'
+	],
+	vite: {
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: '@import "@/assets/scss/utils.scss";'
+				}
+			}
+		},
+	},
+	postcss: {
+		plugins: {
+		  tailwindcss: {},
+		  autoprefixer: {},
+		},
+	  },
+	imports: {
+		dirs: ['store', 'utils', 'animations'],
+	},
 })
