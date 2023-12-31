@@ -32,11 +32,11 @@
 </template>
 <style lang='scss' scoped>
 
-._container {
-	width: 100%;
-	padding-left: 32px;
-	padding-right: 32px;
-}
+// ._container {
+// 	width: 100%;
+// 	padding-left: 32px;
+// 	padding-right: 32px;
+// }
 
 
 </style>

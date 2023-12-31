@@ -28,13 +28,13 @@
           <ul class="flex font-normal text-lg gap-10 font-['Advert'] list-none">
             <li class="group ">
               
-              <NuxtLink to="/">About</NuxtLink>
+              <NuxtLink to="/">Home</NuxtLink>
               <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-[#03fcec]  "></div>
             </li>
 
 
             <li class="group ">
-             <NuxtLink to="/about">About</NuxtLink>
+             <NuxtLink to="/works">Works</NuxtLink>
              
               <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-[#03fcec]  "></div>
             </li>

@@ -687,14 +687,14 @@ let mouseLeave = () => {
                   </div>
                 </div>
               </div> -->
-
+             
 
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contact" class=" font-['Poppins'] bg-[url('../assets/image/hero.jpg')] bg-no-repeat justify-center bg-contain   ">
+      <section id="contact" class="  font-['Poppins'] bg-[url('../assets/image/hero.jpg')] bg-no-repeat justify-center bg-contain   ">
         <div class="w-full  bg-[#11141b]  flex justify-center bg-opacity-95 h-full ">
           <div class="container items-center    block  md:flex justify-center">
             <div class="  flex justify-center md:justify-end">
@@ -705,32 +705,32 @@ let mouseLeave = () => {
 
               </div>
             </div>
-            <div class=" w-full px-2 md:text-left text-center md:w-1/2 py-5">
-              <h2 class="text-[14px] font-normal text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">CONTACT ME
+            <div class=" w-full px-2 page-content md:text-left text-center md:w-1/2 py-5">
+              <h2 class="text-[14px] font-normal text-gray-300 capitalize font-['Poppins'] tracking-[.1rem] page-content__block">CONTACT ME
               </h2>
-              <h1 class="md:text-3xl font-semibold text-3xl pb-1 capitalize ">Get in touch with me today.</h1>
+              <h1 class="md:text-3xl font-semibold text-3xl pb-1 capitalize page-content__block ">Get in touch with me today.</h1>
               <div class="h-1 w-10 mb-3 bg-primary"></div>
-              <p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida,
+              <p class="page-content__block">Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida,
                 odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat
                 sapien pretium eu.</p>
 
               <div class="flex md:justify-start justify-center gap-5 mt-10 ">
                 <form action="" class="  gap-3 w-full">
                   <div class="flex gap-2 ">
-                    <div class="input-containers w-full">
+                    <div class="input-containers page-content__block w-full">
                       <input type="text" placeholder=" " id="name"
                         class="  input-field  h-10 w-full border-2 border-gray-600  outline-none py-1 px1 bg-transparent">
                       <span for="name" class="input-label text-slate-600 font-normal">Your Name </span>
                     </div>
 
-                    <div class="input-containers w-full">
+                    <div class="input-containers page-content__block w-full">
                       <input type="text" placeholder=" " id="name"
                         class="  input-field  h-10 w-full border-2 border-gray-600 outline-none py-1 px1 bg-transparent">
                       <span for="name" class="input-label text-slate-600 font-normal">Your Email </span>
                     </div>
 
                   </div>
-                  <div class="input-containers1 w-full">
+                  <div class="input-containers1 page-content__block w-full">
 
                     <textarea id="message" cols="30" rows="10"
                       class="input-field1 w-full border-gray-600  input-field1 bg-transparent mt-5 border-2 py-2 px-2 outline-none"></textarea>
@@ -752,7 +752,7 @@ let mouseLeave = () => {
 		
 		
 	
-    
+     <NavigationFooter></NavigationFooter>
 	
 	
     <!-- <div class=" w-full h-s bg-scroll http://preview.themeforest.net/item/reactjs-creative-personal-portfolio-template-miro/full_screen_preview/27150547?_ga=2.201180011.470406293.1702995992-1898506281.1702995992 font-['Quicksand'] overflow-x-hidden backdrop:blur-3xl bg-blac text-white bg-black  fast ">
@@ -1315,7 +1315,7 @@ padding: 0 0 0.5rem 0.5rem;
 
 .input-field:focus+.input-label,
 .input-field:not(:placeholder-shown)+.input-label {
-transform: translateY(-1.9rem);
+transform: translateY(-1.6rem);
 font-size: 0.8rem;
 color: white;
 
