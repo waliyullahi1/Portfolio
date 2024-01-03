@@ -29,20 +29,20 @@
             <li class="group ">
               
               <NuxtLink to="/">Home</NuxtLink>
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-[#03fcec]  "></div>
+              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div>
             </li>
 
 
             <li class="group ">
              <NuxtLink to="/works">Works</NuxtLink>
              
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-[#03fcec]  "></div>
+              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div>
             </li>
 
 
             <li class="group">
               <a class=" " href="">Contact</a>
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500  md:bg-[#03fcec]  "></div>
+              <div class=" h-[2px] group-hover:w-full w-0 duration-500  md:bg-primary "></div>
             </li>
 
 
@@ -64,7 +64,7 @@
 }
 
 .page_white .header {
-	hybackdrop-filter:blur(12px) ; 
+  backdrop-filter:blur(12px) ;
 
 }
 .page_black .header {
