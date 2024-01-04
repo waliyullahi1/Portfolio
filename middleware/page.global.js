@@ -1,6 +1,7 @@
 export default defineNuxtRouteMiddleware((to, from) => {
 
 	from.meta.pageTransition.onLeave = (el, done) => {
+		general.rotate= !general.rotate
 		general.isTransitionFinish = false
 		general.isTransitionStart = false
 		general.isTransitionStart = true

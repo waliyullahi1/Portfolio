@@ -5,5 +5,6 @@ export const general = reactive({
 	isPreloaderVisible: true,
 	isTransitionFinish: true,
 	isTransitionStart: true,
-	pageBg: "page_black"
+	pageBg: "page_black",
+	rotate:true,
 })

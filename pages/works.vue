@@ -57,6 +57,33 @@ const state = reactive({
         
     ]
 });
+
+
+// const main = ref();
+//     let ctx;
+//     let smoother;
+
+//     const scrollTo = () => {
+//       smoother.scrollTo(general.pageBg, true, 'top top');
+//     };
+
+//     onMounted(() => {
+//       ctx = gsap.context(() => {
+//         // create the smooth scroller FIRST!
+//         smoother = ScrollSmoother.create({
+//           smooth: 6, // seconds it takes to "catch up" to native scroll position
+//           effects: true, // look for data-speed and data-lag attributes on elements and animate accordingly
+//         });
+//         ScrollTrigger.create({
+//           trigger:general.pageBg,
+//           pin: true,
+//           start: 'center center',
+          
+//           markers: true,
+//         });
+//       }, main.value);
+//     });
+   
 definePageMeta(transition)
 const settings = ref({
     itemsToShow: 1,
@@ -65,7 +92,7 @@ const settings = ref({
 
 const breakpoints = ref({
     700: {
-        itemsToShow: 3.5,
+        itemsToShow: 2,
         snapAlign: 'center',
     },
     100: {
@@ -91,7 +118,7 @@ watch(() =>
 
 </script>
 <template>
-    <div :class="general.pageBg">
+    <div :class="general.pageBg" ref="{main}">
         <NuxtLayout name="custom" page-name="about" title="About">
 
             <div class=" container mx-auto px-4">
@@ -99,7 +126,7 @@ watch(() =>
                 <div class=" mt-40">
                     <div class=" w-full py-10  ">
                         <div
-                            class=" sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+                            class=" static md:sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
                             <div
                                 class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                                 <img src="../assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
@@ -156,7 +183,7 @@ watch(() =>
                         </div>
 
                         <div
-                            class=" sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+                            class=" static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
                             <div class="hidden md:block">
                                 <h2
                                     class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
@@ -247,7 +274,7 @@ watch(() =>
 
 
                         <div
-                            class=" sticky top-32 bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+                            class=" static md:sticky top-32 bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
                             <div
                                 class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project3.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                                 <img src="../assets/image/project3.jpg" alt="  " class="h-full sm:hidden " srcset="">
@@ -286,7 +313,7 @@ watch(() =>
                         </div>
 
                         <div
-                            class=" sticky top-32 bg-black 4 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+                            class=" static md:sticky top-32 bg-black 4 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
 
                             <div class=" hidden md:block ">
                                 <h2
@@ -397,7 +424,7 @@ watch(() =>
                         </div>
 
                         <div
-                            class="sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+                            class="static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
                             <div
                                 class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project5.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                                 <img src="../assets/image/project5.jpg" alt="  " class="h-full sm:hidden " srcset="">
@@ -439,7 +466,7 @@ watch(() =>
                         </div>
 
                         <div
-                            class=" 6  sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+                            class=" 6 static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
 
                             <div class=" hidden md:block ">
                                 <h2
@@ -511,7 +538,7 @@ watch(() =>
 
                         </div>
 
-                        <div class=" 6  sticky top-32 bg-black page-content py-5 gap-10">
+                        <div class=" 6  static md:sticky  top-32 bg-black page-content py-5 gap-10">
                             <h1 class="md:text-2xl text-xl text-center py-3 tracking-widest  font-medium">My past works on graphic design</h1>
                            <div class="w-full justify-center flex items-center"> <div class="w-96 h-[1px] items-center  ctxx"></div></div>
 
@@ -519,8 +546,8 @@ watch(() =>
                                 class=" mt-20 gap-8 flex flex-wrap w-full justify-center items-center  ">
                                 <Slide v-for="item in state.hero" :key="item.id" class="group">
                                     <div
-                                        class=" mx-3  group group-hover:scale-105 group-hover:bg-gray-800 duration-700  rounded-lg bg-secondary py-9 px-9  ">
-                                        <div class="py-5 gap-5 flex flex-col justify-center items-center">
+                                        class=" md:mx-3 mx-1  group group-hover:scale-105 group-hover:bg-gray-800 duration-700  rounded-lg bg-secondary py-2 px-2 md:py-6 md:px-6  ">
+                                        <div class="md:py-5 py-2  gap-5 flex flex-col justify-center items-center">
                                             <img class=" w-full    " v-bind:src="item.image" alt="">
                                            
 
@@ -540,7 +567,7 @@ watch(() =>
 
                     </div>
                     <div class="w-full flex justify-center">
-                      <h1 class=" text-normal font-normal text-primary tracking-widest">Thanks you for view my website, click the below social button icon to contact me</h1>
+                      <h1 class=" text-normal text-center font-normal text-primary tracking-widest">Thanks you for view my website, click the below social button icon to contact me</h1>
   
                     </div>
                                         <NavigationFooter></NavigationFooter>
@@ -678,9 +705,15 @@ background-image: linear-gradient(to right, transparent, rgb(255, 255, 255) 100p
 .skrew1:hover {
     -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(20deg);
     transform: perspective(800px) rotateY(0deg) scale(.8) rotateX(0deg);
+   
 }
 
 // .page-content__block {
 // 	padding-bottom: 32px;
 // }
+
+body {
+    height: fit-content !important;
+
+}
 </style>

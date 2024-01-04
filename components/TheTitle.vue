@@ -11,7 +11,7 @@
 		<div class=" bg-[#11141b]  bg-opacity-95  h-screen flex flex-col justify-center items-center w-full  ">
 
 			<h1 class="md:text-3xl title-default__wrap text-2xl  font-semibold">Let's See My Work</h1>
-                        <h2 class=" title-default__wrap tracking-wider"> Scroll down to Selected work I've taken on in the past.</h2>
+                        <h2 class=" title-default__wrap text-center tracking-wider"> Scroll down to Selected work I've taken on in the past.</h2>
 
 		</div>
 	</div>

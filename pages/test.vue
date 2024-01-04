@@ -49,9 +49,7 @@ const main = ref();
       //   // });
       // }, main.value);
     });
-    onUnmounted(() => {
-      //ctx.revert();
-    });
+    
 
 
 const props = defineProps({

@@ -4,7 +4,7 @@
    <div class="text-white c flex sm:flex-row flex-col justify-between items-center w-full md:px-20 px-4 ">
     <div class=" w-full">
       <h1 class=" page-content__block text-xl font-semibold tracking-widest ">waheed waliu</h1>
-      <p class="page-content__block ">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>  
+      <p class="page-content__block text-[15px] tracking-wider ">A Full-Stack focused Web Developer building the Frontend and Back-end of Websites and Web Applications that leads to the success of the overall product</p>  
     </div>
     
 
@@ -69,7 +69,7 @@
 
      </div>
      <div class=" h-[1px] w-full bg-slate-600 my-5"></div>
-     <h1 class=" text-center text-slate-600">© Copyright 2023. Made by waliu waheed</h1>
+     <h1 class=" text-center text-[15px] tracking-wider  text-slate-600">© Copyright 2024. Made by waliu waheed</h1>
 
   </footer>
   </div>
