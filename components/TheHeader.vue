@@ -5,19 +5,33 @@ const state = reactive({
 
 })
 
+
+
+// const contact = () => {
+//   smoother.scrollTo('.contact', true, 'center center');
+// };
+
 const emitclick = ()=>{
   general.rotate= !general.rotate
-  // if (state.rotate1 = true) {
-  //   setTimeout(()=>{
-  // state.rotate1 = !state.rotate1
-  // },10)
 
-  // return
-  // }
- 
   
 }
+
+
+
+
+
+onMounted(() => {
+
+
+    
+        // create the smooth scroller FIRST!
+        
+        
+    
+    });
 	
+
 
 </script>
 <template>
@@ -47,10 +61,12 @@ const emitclick = ()=>{
             </li>
 
             <li   class="group   ">
-              <div>
-                <NuxtLink  class="route">About</NuxtLink>
              
-              </div>
+               <div >
+                <NuxtLink  class="route">About</NuxtLink>
+              </div> 
+         
+              
               
             </li>
 
@@ -62,7 +78,7 @@ const emitclick = ()=>{
             </li>
 
 
-            <li class="group ">
+            <li class="group "  @click="contact()">
               
               <NuxtLink class="route" to="">Contact</NuxtLink>
             

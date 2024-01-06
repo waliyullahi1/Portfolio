@@ -5,7 +5,7 @@
     let ctx;
     let smoother;
 
-    const scrollTo = () => {
+    const contact = () => {
       smoother.scrollTo(general.pageBg, true, 'top top');
     };
 

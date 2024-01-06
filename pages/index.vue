@@ -36,9 +36,7 @@ const main = ref();
 let ctx;
 let smoother;
 
-const scrollTo = () => {
-  smoother.scrollTo('.box-c', true, 'center center');
-};
+
 
 onMounted(() => {
   // const tl = gsap.timeline()
@@ -49,7 +47,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage.value = Math.max(percentage.progress)
+        percentage.value = Math.floor(percentage.progress), Math.floor()
       },
 
     }
@@ -62,7 +60,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage1.value = Math.max(percentage1.progress)
+        percentage1.value = Math.floor(percentage1.progress)
       },
 
     }
@@ -75,7 +73,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage2.value = Math.max(percentage2.progress)
+        percentage2.value = Math.floor(percentage2.progress)
       },
 
     }
@@ -88,7 +86,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage3.value = Math.max(percentage3.progress)
+        percentage3.value = Math.floor(percentage3.progress)
       },
 
     }
@@ -101,7 +99,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage4.value = Math.max(percentage4.progress)
+        percentage4.value = Math.floor(percentage4.progress)
       },
 
     }
@@ -114,7 +112,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage5.value = Math.max(percentage5.progress)
+        percentage5.value = Math.floor(percentage5.progress)
       },
 
     }
@@ -127,7 +125,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage6.value = Math.max(percentage6.progress)
+        percentage6.value = Math.floor(percentage6.progress)
       },
 
     }
@@ -140,7 +138,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: '.bbb',
       onUpdate() {
-        percentage7.value = Math.max(percentage7.progress)
+        percentage7.value = Math.floor(percentage7.progress)
       },
 
     }
@@ -169,7 +167,7 @@ onMounted(() => {
 //       trigger: '.bbb',
 //       scrub: true,
 //       onUpdate() {
-//         percentage = Math.max(this.progress() * 100)
+//         percentage = Math.floor(this.progress() * 100)
 //         document.querySelector('.percent p').textContent = `${percentage}%`
 //       },
 //       start: 'bottom bottom',
@@ -432,8 +430,8 @@ definePageMeta(transition)
 			title="welcome"
 		/> -->
 
-    <section
-      class="page-content bg-[#11141b] py-20 npx tailwindcss font-['Poppins'] ./assets/inpute.css -o ./assets/output.css --watchpx-4 w-full md:px-0 mx-auto ">
+    <section id="about"
+      class="page-content about bg-[#11141b] py-20 npx tailwindcss font-['Poppins'] ./assets/inpute.css -o ./assets/output.css --watchpx-4 w-full md:px-0 mx-auto ">
       <div class="container py-20 px-4  md:px-0 mx-auto">
         <h1 class="  text-3xl text-center  tracking-wider py-8 page-content__block  font-normal">About Me</h1>
         <div class="md:flex block justify-center items-center gap-5">
@@ -613,39 +611,10 @@ definePageMeta(transition)
 
           <div class="   gap-7 mt-20  grid  md:grid-cols-2  grid-cols-1  ">
             <div class=" flex flex-col gap-5 w-full">
-              <!-- <div class="percentages">
-                <div class="preloader">
-                  <div class="preloader-percent text-5xl h1">
-                    {{ percentage }}%pppppp
-                  </div>
-                </div>
-                <div class="percent">
-                  <p>90%{{ percentage }}</p>
-                  <div class="w-full rounded-full bg-white h-1">
-                    <div :style="{ width: `${percentage}%` }" class="bg-tertiary h-full"></div>
-                  </div>
-                </div>
-
-                <div class="percentage">
-                  <h2>CorelDraw</h2>
-                  <p>91%</p>
-                  <div class="w-full rounded-full bg-white h-1">
-                    <div :style="{ width: '0%' }" class="bg-tertiary duration-700 h-full"></div>
-                  </div>
-                </div>
-                <div class="percentage">
-                  <h2>CorelDraw</h2>
-                  <p>93%</p>
-                  <div class="w-full rounded-full bg-white h-1">
-                    <div :style="{ width: '0%' }" class="bg-tertiary duration-700 h-full"></div>
-                  </div>
-                </div>
-                
-              </div> -->
-
+          
               <div>
                 <div
-                  class="flex  font-medium mb-2  tracking-wider  mr-4   justify-between                                       ">
+                  class="flex percentage1  bbb font-medium mb-2  tracking-wider  mr-4   justify-between                                       ">
                   <h1>Photoshop</h1>
                   <h1></h1>
                   <p>{{ percentage }}%</p>
