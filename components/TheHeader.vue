@@ -24,7 +24,7 @@ const emitclick = ()=>{
 
 	<div>
 
-    <header class="fixed w-full z-50 header shodow top-0 left-0 data-lenis-prevent">
+    <header class="fixed w-full z-10 header shodow top-0 left-0 data-lenis-prevent">
       <div class="mx-auto flex bloc px-2 container">
        
         <nav class=" md:flex block  mt-5  justify-between w-full items-start  sm:items-center ">
@@ -40,39 +40,39 @@ const emitclick = ()=>{
 
             <li   class="group   ">
               <div>
-                <NuxtLink to="/">Home</NuxtLink>
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div>
+                <NuxtLink class="route" to="/">Home</NuxtLink>
+              <!-- <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div> -->
               </div>
               
             </li>
 
             <li   class="group   ">
               <div>
-                <NuxtLink >About</NuxtLink>
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div>
+                <NuxtLink  class="route">About</NuxtLink>
+             
               </div>
               
             </li>
 
 
             <li class="group ">
-             <NuxtLink to="/works">Works</NuxtLink>
+             <NuxtLink class="route" to="/works">Works</NuxtLink>
              
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div>
+          
             </li>
 
 
             <li class="group ">
               
-              <NuxtLink to="">Contact</NuxtLink>
-              <div class=" h-[2px] group-hover:w-full w-0 duration-500 bg-primary  "></div>
+              <NuxtLink class="route" to="">Contact</NuxtLink>
+            
             </li>
          
 
             <li class="group w-full md:hidden items-center flex bg-gray-900 py-4 justify-around">
               
               
-              <a href="">
+              <a href="https://twitter.com/wizzywise67">
                 <div class="w-10   hover:scale-110 duration-300 hover:text-gray-500 text-white   ">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208 208"
                     version="1.1">
@@ -97,7 +97,7 @@ const emitclick = ()=>{
               </a>
 
 
-              <a href="">
+              <a  href="https://www.linkedin.com/in/waliu-idowu-50a594243">
                 <div class="w-9  hover:scale-110 duration-300 hover:text-gray-500 text-white top-10 ">
                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208 208"
                     version="1.1">
@@ -109,7 +109,7 @@ const emitclick = ()=>{
                 </div>
               </a>
 
-              <a href="">
+              <a href="https://www.instagram.com/wise_grafix/">
                 <div class=" w-9  hover:scale-110 duration-300 hover:text-gray-500 text-white  top-10 ">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26">
                     <path
@@ -149,8 +149,30 @@ const emitclick = ()=>{
 </template>
 <style lang='scss' scoped>
 
+.route {
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+}
+
+.route::after {
+  content: '';
+  width: 0%;
+  
+  height: 2px;
+  background-color: #ffc209;
+   transition: width 0.3s;
+   transform: translateX(-50%);
+   position: relative;
+   bottom: -1px;
+   left: 20px;
+}
+
+.route:hover::after {
+  width: 100%;
+}
 .header {
-z-index: 50;
+  z-index: $z-header;
 }
 .header-link {
 	margin: 0 20px;

@@ -1,6 +1,7 @@
 export default defineNuxtRouteMiddleware((to, from) => {
 
-	from.meta.pageTransition.onLeave = (el, done) => {
+	if (from.meta && from.meta.pageTransition) {
+		from.meta.pageTransition.onLeave = (el, done) => {
 		general.rotate= !general.rotate
 		general.isTransitionFinish = false
 		general.isTransitionStart = false
@@ -9,11 +10,13 @@ export default defineNuxtRouteMiddleware((to, from) => {
 
 		let tl = gsap.timeline({
 			onComplete() {
+				
 				gsap.set([
 					el,
 					el.querySelector('.page-wrap'),
 					el.querySelector('.page-mask'),
-					el.querySelector('.header')
+					el.querySelector('.header'),
+					el.querySelector('.w-full', '.percentage p')
 				], {
 					clearProps: 'all'
 				})
@@ -56,7 +59,11 @@ export default defineNuxtRouteMiddleware((to, from) => {
 		}, 0)
 
 	}
-	to.meta.pageTransition.onEnter = (el, done) => {
+	  }
+	
+
+	  if (to.meta && to.meta.pageTransition) {
+		to.meta.pageTransition.onEnter = (el, done) => {
 		useChangePageBg()
 
 		gsap.set(el, {
@@ -86,6 +93,8 @@ export default defineNuxtRouteMiddleware((to, from) => {
 			duration: 1
 		})
 	}
+	  }
+	
 
 })
 

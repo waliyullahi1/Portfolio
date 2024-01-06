@@ -22,9 +22,11 @@
           pin: true,
           start: 'center center',
           
-          markers: true,
+          // markers: true,
         });
       }, main.value);
+
+      
     });
 
 	// onMounted(() => {

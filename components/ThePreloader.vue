@@ -27,7 +27,7 @@
 </script>
 <template>
 
-	<div class="preloader">
+	<div class="preloader z-50">
 		<div class="preloader-percent text-5xl h1">
 			{{ percentage }}%
 		</div>
@@ -39,6 +39,7 @@
 .preloader {
 	position: fixed;
 	inset: 0;
+
 	z-index: $z-preloader;
 	display: flex;
 	align-items: center;

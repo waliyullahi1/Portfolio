@@ -3,7 +3,7 @@
     <footer class=" page-content  container mx-auto  ">
    <div class="text-white c flex sm:flex-row flex-col justify-between items-center w-full md:px-20 px-4 ">
     <div class=" w-full">
-      <h1 class=" page-content__block text-xl font-semibold tracking-widest ">waheed waliu</h1>
+      <h1 class=" page-content__block text-xl font-semibold tracking-widest ">waheed idowu</h1>
       <p class="page-content__block text-[15px] tracking-wider ">A Full-Stack focused Web Developer building the Frontend and Back-end of Websites and Web Applications that leads to the success of the overall product</p>  
     </div>
     

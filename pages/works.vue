@@ -120,467 +120,465 @@ watch(() =>
 <template>
     <div :class="general.pageBg" ref="{main}">
         <NuxtLayout name="custom" page-name="about" title="About">
-
-            <div class=" container mx-auto px-4">
-
-                <div class=" mt-40">
-                    <div class=" w-full py-10  ">
-                        <div
-                            class=" static md:sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
-                            <div
-                                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                                <img src="../assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
-                            </div>
-
-                            <div>
-                                <h2
-                                    class=" page-content__block text-3xl font-semibold tracking-widest text-primary text-center">
-                                    Abanise
-                                </h2>
-                                <p class=" page-content__block mt-4 text-center">Built a platform that will enable these
-                                    companies to be
-                                    selling Scratch for (WAEC, NECO, NABTEB) , to check OLEVEL, Also PIN token for
-                                    (GCEWAEC, GCENECO, JAMB, GCENABTEB) for Registration, And then they sell MTN
-                                    data bundle and card, and soon on </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Mangoodb
-                                    </li>
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nodejs
-                                    </li>
-                                    <li
-                                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
-                                        express.js
-                                    </li>
-                                    <li
-                                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
-                                        paystack.js
-                                    </li>
-                                    <li
-                                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
-                                        JWT
-                                    </li>
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            class=" static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
-                            <div class="hidden md:block">
-                                <h2
-                                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
-                                    SmtStream app</h2>
-                                <p class=" page-content__block mt-4 text-center">
-                                    i developed this music app using vue3 but JavaScript it was control it, which allows
-                                    users to control
-                                    the audio playback by playing, pausing, skipping to the next or previous track. The
-                                    project
-                                    has helped me improve my technical skills, and it took me one month to implement the
-                                    basic functionalities.
-                                    I have also implemented measures to prevent users from downloading the music expect i
-                                    allow it. </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Music API
-                                    </li>
-
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-
-
-                            <div
-                                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project2.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
-                                <img src="../assets/image/project2.jpg" alt="  "
-                                    class=" smothsmeth picture sm:hidden block " srcset="">
-                            </div>
-
-                            <div class="block  md:hidden ">
-                                <h2
-                                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
-                                    SmtStream app</h2>
-                                <p class=" page-content__block mt-4 text-center">
-                                    i developed this music app using vue3 but JavaScript it was control it, which allows
-                                    users to control
-                                    the audio playback by playing, pausing, skipping to the next or previous track. The
-                                    project
-                                    has helped me improve my technical skills, and it took me one month to implement the
-                                    basic functionalities.
-                                    I have also implemented measures to prevent users from downloading the music expect i
-                                    allow it. </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Music API
-                                    </li>
-
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
-
-
-                        <div
-                            class=" static md:sticky top-32 bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
-                            <div
-                                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project3.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                                <img src="../assets/image/project3.jpg" alt="  " class="h-full sm:hidden " srcset="">
-                            </div>
-
-                            <div>
-                                <h2
-                                    class=" page-content__block text-3xl font-semibold tracking-widest text-primary text-center">
-                                    Bitlocus</h2>
-                                <p class=" page-content__block mt-4 text-center">Built this platform for pratices to know
-                                    how to using a gsap with nuxt3 and how it is work, and GSAP is a popular animation
-                                    library that allows developers to create complex animations and interactions for the
-                                    web, AlsoNuxt3 is a modern web development framework that provides a powerful set of
-                                    tools for building fast and scalable web applications </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-
-
-
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            class=" static md:sticky top-32 bg-black 4 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
-
-                            <div class=" hidden md:block ">
-                                <h2
-                                    class=" page-content__block text-xl tracking-widest  sm:text-3xl font-semibold text-primary text-center">
-                                    Exam Quiz Game</h2>
-                                <p class=" page-content__block mt-4 text-center"> i built a quiz game for Abanise that they
-                                    use to gift years bonus to customers who pass the exam. The quiz consists of three
-                                    questions about the business, and the customer must score at least 2 out of 3 to pass.
-                                    If the customer passes the exam, they will receive a 1 GB data bundle for any network.
-                                    Also i implemented a feature that prevents customers from playing the game twice on the
-                                    same phone number or device.</p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Mangoodb
-                                    </li>
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nodejs
-                                    </li>
-                                    <li
-                                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
-                                        express.js
-                                    </li>
-                                    <li
-                                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
-                                        Network API
-                                    </li>
-                                    <li
-                                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
-                                        JWT
-                                    </li>
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-
-                            <div
-                                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project4.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
-                                <img src="../assets/image/project4.jpg" alt="  "
-                                    class=" smothsmeth picture sm:hidden block " srcset="">
-                            </div>
-
-                            <div class="block  md:hidden  ">
-                                <h2
-                                    class=" page-content__block   tracking-widest  text-3xl font-semibold text-primary text-center">
-                                    Exam Quiz Game</h2>
-                                <p class=" page-content__block t mt-4 text-center"> i built a quiz game for Abanise that
-                                    they use to gift years bonus to customers who pass the exam. The quiz consists of three
-                                    questions about the business, and the customer must score at least 2 out of 3 to pass.
-                                    If the customer passes the exam, they will receive a 1 GB data bundle for any network.
-                                    Also i implemented a feature that prevents customers from playing the game twice on the
-                                    same phone number or device.</p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Mangoodb
-                                    </li>
-                                    <li
-                                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nodejs
-                                    </li>
-                                    <li
-                                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
-                                        express.js
-                                    </li>
-                                    <li
-                                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
-                                        Network API
-                                    </li>
-                                    <li
-                                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
-                                        JWT
-                                    </li>
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-
-                        <div
-                            class="static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
-                            <div
-                                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project5.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                                <img src="../assets/image/project5.jpg" alt="  " class="h-full sm:hidden " srcset="">
-                            </div>
-
-                            <div>
-                                <h2
-                                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center">
-                                    Midjourning
-                                </h2>
-                                <p class=" page-content__block mt-4 text-center">this not my first project but the project i
-                                    save to github before my system corrupt, built this platform for practicing your coding
-                                    skills and learning how to use GitHub. The platform allows owners to sell shoes, the
-                                    latest fashion shows, and some of the latest clothes. It’s great that you are using your
-                                    skills to create something useful and practical </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        tailwindcss
-                                    </li>
-
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            class=" 6 static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
-
-                            <div class=" hidden md:block ">
-                                <h2
-                                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center">
-                                    Micakin</h2>
-                                <p class=" page-content__block mt-4 text-center">This Website are already been exist but i
-                                    just use to practices and check my skill </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        tailwindcss
-                                    </li>
-
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-
-                            <div
-                                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project6.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
-                                <img src="../assets/image/project6.jpg" alt="  "
-                                    class=" smothsmeth picture sm:hidden block " srcset="">
-                            </div>
-
-
-                            <div class=" block  md:hidden ">
-                                <h2
-                                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center">
-                                    Micakin</h2>
-                                <p class=" page-content__block mt-4 text-center">This Website are already been exist but i
-                                    just use to practices and check my skill </p>
-                                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
-                                    <li
-                                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        vue3
-                                    </li>
-
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        Nuxt3
-                                    </li>
-                                    <li
-                                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
-                                        tailwindcss
-                                    </li>
-
-                                </ul>
-
-                                <div class="w-full justify-center flex">
-                                    <a href="https://www.abaniseedu.com/"
-                                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
-                                        visit </a>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <div class=" 6  static md:sticky  top-32 bg-black page-content py-5 gap-10">
-                            <h1 class="md:text-2xl text-xl text-center py-3 tracking-widest  font-medium">My past works on graphic design</h1>
-                           <div class="w-full justify-center flex items-center"> <div class="w-96 h-[1px] items-center  ctxx"></div></div>
-
-                            <Carousel :transition="1000" :wrap-around="true" :breakpoints="breakpoints"
-                                class=" mt-20 gap-8 flex flex-wrap w-full justify-center items-center  ">
-                                <Slide v-for="item in state.hero" :key="item.id" class="group">
-                                    <div
-                                        class=" md:mx-3 mx-1  group group-hover:scale-105 group-hover:bg-gray-800 duration-700  rounded-lg bg-secondary py-2 px-2 md:py-6 md:px-6  ">
-                                        <div class="md:py-5 py-2  gap-5 flex flex-col justify-center items-center">
-                                            <img class=" w-full    " v-bind:src="item.image" alt="">
-                                           
-
-                                          
-
-                                        </div>
-                                    </div>
-                                </Slide>
-
-                                <template #addons>
-                                    <Navigation />
-                                </template>
-                            </Carousel>
-
-
-                        </div>
-
-                    </div>
-                    <div class="w-full flex justify-center">
-                      <h1 class=" text-normal text-center font-normal text-primary tracking-widest">Thanks you for view my website, click the below social button icon to contact me</h1>
-  
-                    </div>
-                                        <NavigationFooter></NavigationFooter>
-                </div>
-                <!-- <div
-					v-for="_ in 10"
-					class="page-content__block p1"
-				>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at, rerum, atque odio molestias fugit vel facere iure nulla maiores pariatur cum libero beatae impedit iusto enim officiis, minima animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at, rerum, atque odio molestias fugit vel facere iure nulla maiores pariatur cum libero beatae impedit iusto enim officiis, minima animi.
-				</div> -->
+        </NuxtLayout>
+        <div class=" container mx-auto px-4">
+
+<div class=" mt-40">
+    <div class=" w-full py-10  ">
+        <div
+            class=" static md:sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            <div
+                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="../assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
             </div>
 
-        </NuxtLayout>
+            <div>
+                <h2
+                    class=" page-content__block text-3xl font-semibold tracking-widest text-primary text-center">
+                    Abanise
+                </h2>
+                <p class=" page-content__block mt-4 text-center">Built a platform that will enable these
+                    companies to be
+                    selling Scratch for (WAEC, NECO, NABTEB) , to check OLEVEL, Also PIN token for
+                    (GCEWAEC, GCENECO, JAMB, GCENABTEB) for Registration, And then they sell MTN
+                    data bundle and card, and soon on </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Mangoodb
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nodejs
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        express.js
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        paystack.js
+                    </li>
+                    <li
+                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
+                        JWT
+                    </li>
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://www.abaniseedu.com/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class=" static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            <div class="hidden md:block">
+                <h2
+                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
+                    SmtStream app</h2>
+                <p class=" page-content__block mt-4 text-center">
+                    i developed this music app using vue3 but JavaScript it was control it, which allows
+                    users to control
+                    the audio playback by playing, pausing, skipping to the next or previous track. The
+                    project
+                    has helped me improve my technical skills, and it took me one month to implement the
+                    basic functionalities.
+                    I have also implemented measures to prevent users from downloading the music expect i
+                    allow it. </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Music API
+                    </li>
+
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://smooth-stream-vncx.vercel.app/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+
+
+            <div
+                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project2.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
+                <img src="../assets/image/project2.jpg" alt="  "
+                    class=" smothsmeth picture sm:hidden block " srcset="">
+            </div>
+
+            <div class="block  md:hidden ">
+                <h2
+                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
+                    SmtStream app</h2>
+                <p class=" page-content__block mt-4 text-center">
+                    i developed this music app using vue3 but JavaScript it was control it, which allows
+                    users to control
+                    the audio playback by playing, pausing, skipping to the next or previous track. The
+                    project
+                    has helped me improve my technical skills, and it took me one month to implement the
+                    basic functionalities.
+                    I have also implemented measures to prevent users from downloading the music expect i
+                    allow it. </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Music API
+                    </li>
+
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://smooth-stream-vncx.vercel.app/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div
+            class=" static md:sticky top-32 bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            <div
+                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project3.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="../assets/image/project3.jpg" alt="  " class="h-full sm:hidden " srcset="">
+            </div>
+
+            <div>
+                <h2
+                    class=" page-content__block text-3xl font-semibold tracking-widest text-primary text-center">
+                    Bitlocus</h2>
+                <p class=" page-content__block mt-4 text-center">Built this platform for pratices to know
+                    how to using a gsap with nuxt3 and how it is work, and GSAP is a popular animation
+                    library that allows developers to create complex animations and interactions for the
+                    web, AlsoNuxt3 is a modern web development framework that provides a powerful set of
+                    tools for building fast and scalable web applications </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+
+
+
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://crypto-web-5og7.vercel.app/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class=" static md:sticky top-32 bg-black 4 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+
+            <div class=" hidden md:block ">
+                <h2
+                    class=" page-content__block text-xl tracking-widest  sm:text-3xl font-semibold text-primary text-center">
+                    Exam Quiz Game</h2>
+                <p class=" page-content__block mt-4 text-center"> i built a quiz game for Abanise that they
+                    use to gift years bonus to customers who pass the exam. The quiz consists of three
+                    questions about the business, and the customer must score at least 2 out of 3 to pass.
+                    If the customer passes the exam, they will receive a 1 GB data bundle for any network.
+                    Also i implemented a feature that prevents customers from playing the game twice on the
+                    same phone number or device.</p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Mangoodb
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nodejs
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        express.js
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        Network API
+                    </li>
+                    <li
+                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
+                        JWT
+                    </li>
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://www.abaniseedu.com/qiuz"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+
+            <div
+                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project4.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
+                <img src="../assets/image/project4.jpg" alt="  "
+                    class=" smothsmeth picture sm:hidden block " srcset="">
+            </div>
+
+            <div class="block  md:hidden  ">
+                <h2
+                    class=" page-content__block   tracking-widest  text-3xl font-semibold text-primary text-center">
+                    Exam Quiz Game</h2>
+                <p class=" page-content__block t mt-4 text-center"> i built a quiz game for Abanise that
+                    they use to gift years bonus to customers who pass the exam. The quiz consists of three
+                    questions about the business, and the customer must score at least 2 out of 3 to pass.
+                    If the customer passes the exam, they will receive a 1 GB data bundle for any network.
+                    Also i implemented a feature that prevents customers from playing the game twice on the
+                    same phone number or device.</p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Mangoodb
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nodejs
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        express.js
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        Network API
+                    </li>
+                    <li
+                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
+                        JWT
+                    </li>
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://www.abaniseedu.com/qiuz"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div
+            class="static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            <div
+                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project5.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="../assets/image/project5.jpg" alt="  " class="h-full sm:hidden " srcset="">
+            </div>
+
+            <div>
+                <h2
+                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center">
+                    Midjourning
+                </h2>
+                <p class=" page-content__block mt-4 text-center">this not my first project but the project i
+                    save to github before my system corrupt, built this platform for practicing your coding
+                    skills and learning how to use GitHub. The platform allows owners to sell shoes, the
+                    latest fashion shows, and some of the latest clothes. It’s great that you are using your
+                    skills to create something useful and practical </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        tailwindcss
+                    </li>
+
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://midjourney-black.vercel.app/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class=" 6 static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+
+            <div class=" hidden md:block ">
+                <h2
+                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center">
+                    Micakin</h2>
+                <p class=" page-content__block mt-4 text-center">This Website are already been exist but i
+                    just use to practices and check my skill </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        tailwindcss
+                    </li>
+
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://micahil.vercel.app/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+
+            <div
+                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project6.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
+                <img src="../assets/image/project6.jpg" alt="  "
+                    class=" smothsmeth picture sm:hidden block " srcset="">
+            </div>
+
+
+            <div class=" block  md:hidden ">
+                <h2
+                    class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center">
+                    Micakin</h2>
+                <p class=" page-content__block mt-4 text-center">This Website are already been exist but i
+                    just use to practices and check my skill </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        tailwindcss
+                    </li>
+
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://micahil.vercel.app/"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class=" 6  static md:sticky  top-32 bg-black page-content py-5 gap-10">
+            <h1 class="md:text-2xl text-xl text-center py-3 tracking-widest  font-medium">My past works on graphic design</h1>
+           <div class="w-full justify-center flex items-center"> <div class="w-96 h-[1px] items-center  ctxx"></div></div>
+
+            <Carousel :transition="1000" :wrap-around="true" :breakpoints="breakpoints"
+                class=" mt-20 gap-8 flex flex-wrap w-full justify-center items-center  ">
+                <Slide v-for="item in state.hero" :key="item.id" class="group">
+                    <div
+                        class=" md:mx-3 mx-1  group group-hover:scale-105 group-hover:bg-gray-800 duration-700  rounded-lg bg-secondary py-2 px-2 md:py-6 md:px-6  ">
+                        <div class="md:py-5 py-2  gap-5 flex flex-col justify-center items-center">
+                            <img class=" w-full    " v-bind:src="item.image" alt="">
+                           
+
+                          
+
+                        </div>
+                    </div>
+                </Slide>
+
+                <template #addons>
+                    <Navigation />
+                </template>
+            </Carousel>
+
+
+        </div>
+
+    </div>
+    <div class="w-full flex justify-center">
+      <h1 class=" text-normal text-center font-normal text-primary tracking-widest">Thanks you for view my website, click the below social button icon to contact me</h1>
+
+    </div>
+                        <NavigationFooter></NavigationFooter>
+</div>
+<!-- <div
+    v-for="_ in 10"
+    class="page-content__block p1"
+>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at, rerum, atque odio molestias fugit vel facere iure nulla maiores pariatur cum libero beatae impedit iusto enim officiis, minima animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at, rerum, atque odio molestias fugit vel facere iure nulla maiores pariatur cum libero beatae impedit iusto enim officiis, minima animi.
+</div> -->
+</div>
     </div>
 </template>
 <style lang='scss' scoped>
