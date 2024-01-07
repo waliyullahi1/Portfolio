@@ -10,7 +10,7 @@
     };
 
     onMounted(() => {
-		useSmoothScroll()
+		// useSmoothScroll()
       ctx = gsap.context(() => {
         // create the smooth scroller FIRST!
         smoother = ScrollSmoother.create({
