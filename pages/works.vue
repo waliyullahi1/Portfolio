@@ -128,8 +128,8 @@ watch(() =>
         <div
             class=" static md:sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
-                class=" rounded-xl skrew page-content__block-photo  bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                <img src="" alt="  " class="h-full sm:hidden " srcset="">
+                class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="@/assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
             </div>
 
             <div>
