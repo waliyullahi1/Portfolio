@@ -1,15 +1,15 @@
 <script setup>
-import gra10 from "../assets/image/graphic12.jpg"
-import gra9 from "../assets/image/graphic11.jpg"
-import gra8 from "../assets/image/graphic10.jpg"
-import gra7 from "../assets/image/graphic9.jpg"
-import gra6 from "../assets/image/graphic7.jpg"
-import gra5 from "../assets/image/graphic6.jpg"
+import gra10 from "@/assets/image/graphic12.jpg"
+import gra9 from "@/assets/image/graphic11.jpg"
+import gra8 from "@/assets/image/graphic10.jpg"
+import gra7 from "@/assets/image/graphic9.jpg"
+import gra6 from "@/assets/image/graphic7.jpg"
+import gra5 from "@/assets/image/graphic6.jpg"
 import { Carousel, Navigation, Slide } from 'vue3-carousel'
-import gra4 from "../assets/image/graphic5.jpg"
-import gra3 from "../assets/image/graphic4.jpg"
-import gra2 from "../assets/image/graphic3.jpg"
-import gra1 from "../assets/image/graphic2.jpg"
+import gra4 from "@/assets/image/graphic5.jpg"
+import gra3 from "@/assets/image/graphic4.jpg"
+import gra2 from "@/assets/image/graphic3.jpg"
+import gra1 from "@/assets/image/graphic2.jpg"
 const state = reactive({
 
     hero: [
@@ -128,8 +128,8 @@ watch(() =>
         <div
             class=" static md:sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
-                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                <img src="../assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
+                class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="@/assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
             </div>
 
             <div>
@@ -224,12 +224,12 @@ watch(() =>
 
 
             <div
-                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project2.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
-                <img src="../assets/image/project2.jpg" alt="  "
-                    class=" smothsmeth picture sm:hidden block " srcset="">
+                class="  rounded-xl skrew1 page-content__block-photo bg-[url('@/assets/image/project2.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
+                <img src="@/assets/image/project2.jpg" alt="  "
+                    class=" smothsmeth picture sm:hidden block" srcset="">
             </div>
 
-            <div class="block  md:hidden ">
+            <div class="block  md:hidden">
                 <h2
                     class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
                     SmtStream app</h2>
@@ -276,8 +276,8 @@ watch(() =>
         <div
             class=" static md:sticky top-32 bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
-                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project3.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                <img src="../assets/image/project3.jpg" alt="  " class="h-full sm:hidden " srcset="">
+                class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project3.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="@/assets/image/project3.jpg" alt="  " class="h-full sm:hidden " srcset="">
             </div>
 
             <div>
@@ -365,8 +365,8 @@ watch(() =>
             </div>
 
             <div
-                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project4.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
-                <img src="../assets/image/project4.jpg" alt="  "
+                class="  rounded-xl skrew1 page-content__block-photo bg-[url('@/assets/image/project4.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
+                <img src="@/assets/image/project4.jpg" alt="  "
                     class=" smothsmeth picture sm:hidden block " srcset="">
             </div>
 
@@ -426,8 +426,8 @@ watch(() =>
         <div
             class="static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
-                class="  rounded-xl skrew page-content__block-photo bg-[url('../assets/image/project5.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                <img src="../assets/image/project5.jpg" alt="  " class="h-full sm:hidden " srcset="">
+                class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project5.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="@/assets/image/project5.jpg" alt="  " class="h-full sm:hidden " srcset="">
             </div>
 
             <div>
@@ -499,8 +499,8 @@ watch(() =>
             </div>
 
             <div
-                class="  rounded-xl skrew1 page-content__block-photo bg-[url('../assets/image/project6.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
-                <img src="../assets/image/project6.jpg" alt="  "
+                class="  rounded-xl skrew1 page-content__block-photo bg-[url('@/assets/image/project6.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit  overflow-hidden">
+                <img src="@/assets/image/project6.jpg" alt="  "
                     class=" smothsmeth picture sm:hidden block " srcset="">
             </div>
 
