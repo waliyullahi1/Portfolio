@@ -325,7 +325,7 @@ definePageMeta(transition)
                         class="text-[14px] h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
                         Full-stack
                         developer</h2>
-                      <h1 class="md:text-5xl h1 animattext font-semibold text-3xl pb-3 capitalize title-default__wrap ">Waliu idowu
+                      <h1 class="md:text-6xl h1  font-semibold text-3xl pb-3 capitalize title-default__wrap ">Waliu idowu
                       </h1>
                      
                       <p class="title-default__wrap mr-6 ">“Hi, I’m Waliu, a full-stack developer. I’ve mastered web
@@ -837,17 +837,7 @@ definePageMeta(transition)
   transition: transform 1s ease-in-out;
 }
 
-.animattext {
-  color: transparent;
-  -webkit-text-stroke: 1px #fff;
-  animation: ripple 5s infinite;
-  
-  box-sizing: border-box;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
 
-}
 @keyframes ripple {
   0% {
     background-position: 0% 50%;

@@ -1,7 +1,7 @@
 <script setup>
 
 	onMounted(() => {
-		useSmoothScroll()
+		
 	})
 
 </script>

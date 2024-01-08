@@ -28,8 +28,8 @@
 <template>
 
 	<div class="preloader z-50">
-		<div class="preloader-percent text-center text-5xl h1">
-			 <h1 class="font-semibold tracking-widest text-5xl">Waliu Idowu</h1>
+		<div class="preloader-percent text-center text-2xl h1">
+			 <h1 class="font-medium animation tracking-widest text-3xl md:text-5xl">Welcome</h1>
 			{{ percentage }}%
 		</div>
 	</div>
@@ -48,5 +48,26 @@
 	background: $color-white;
 	color: white;
 }
+.animation{
+	animation: text 1s  ;
+	
+}
+
+@keyframes text {
+  0% {
+   transform: translateY(100px);
+  opacity: 0;
+  }
+  50% {
+   transform: translateY(100px);
+  opacity: 0;
+  }
+ 
+  100% {
+	transform: translateY(0px); 
+	opacity: 3;
+  }
+}
+
 
 </style>
