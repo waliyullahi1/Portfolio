@@ -1,5 +1,5 @@
 @font-face {
     font-family: 'Advert';
-    src: url('~assets/fonts/Advert-Regular.ttf') format('truetype'),
-         url('~assets/fonts/Advert-Italic.ttf') format('truetype');
+    src: url('@/assets/fonts/Advert-Regular.ttf') format('truetype'),
+         url('@/assets/fonts/Advert-Italic.ttf') format('truetype');
   }
