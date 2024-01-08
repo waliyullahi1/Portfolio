@@ -43,7 +43,7 @@ onMounted(() => {
        
         <nav class=" md:flex block  mt-5  justify-between w-full items-start  sm:items-center ">
           <ul>
-            <li><a href="/index.html" class="  font-['Advert'] font-light text-[1.7rem] md:text-[2.5rem]"><span
+            <li><a href="/index.html" class="  font-advert font-light text-[1.7rem] md:text-[2.5rem]"><span
                   class=" text-primary animationText">Wa</span>liu</a></li>
           </ul>
 

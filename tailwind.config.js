@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        advert: ['Advert', 'sans-serif'],
+      },
       colors: {
         primary: "#ffc209",
         secondary: "#11141b",

@@ -287,7 +287,7 @@ definePageMeta(transition)
 
 </script>
 <template>
-  <div :class="general.pageBg">
+  <div :class="general.pageBg" class=" overflow-x-hidden">
 
     <div :class="`page ${props.pageName}`">
       <TheHeader />
@@ -499,24 +499,24 @@ definePageMeta(transition)
     <section class="w-full page-content py-10 bg-[#11141b] ">
       <div class="flex justify-center font-['Poppins']  w-[100%]  px-20  mx-auto  ">
         <div>
-          <h1 class="text-3xl text-center  tracking-wider py- page-content__block  font-normal">WORK & EXPERIENCE</h1>
+          <h1 class="sm:text-3xl text-center text-xl  tracking-wider py- page-content__block  font-normal">WORK & EXPERIENCE</h1>
           <div class=" w-full h-fit page-content__block flex justify-center items-cente">
             <div class="w-96 h-[1px]   ctxx"></div>
           </div>
           <div class="grid  items-end mt-20 md:grid-cols-2 grid-cols-1 gap-10">
-            <div class="  duration-500 group-hover:scale-105 w-full  h-full py-6 md:px-6 px-2  bg-[#0c0f16]">
+            <div class="  duration-500 group-hover:scale-105 w-fit  h-full py-6 md:px-6 px-2  bg-[#0c0f16]">
               <div class="flex justify-start gap-6">
                 <div class="flex  flex-col mt-2  justify-c gap-[1rem] items-center">
                   <div class="w-2 h-2   bg-tertiary rounded-full"></div>
                   <div class="w-[2px]  h-full bg-tertiary"></div>
                 </div>
                 <div class="   gap-[3rem]  ">
-                  <h1 class="font-semibold mb-[1rem] page-content__block ">Full stack Web Developer</h1>
+                  <h1 class="font-semibold mb-[1rem] page-content__block ">Front-End  Developer</h1>
                   <div class=" flex flex-col ">
                     <h1
                       class="bg-tertiary page-content__block text-white text-[12px] py-1 px-4 font-semibold w-fit mb-5 h-fit">
                       2018<span class="font-bold">-</span> 2020</h1>
-                    <p class=" page-content__block leading-6 text-[14px] pb-10 ">Over the past five years, I’ve
+                    <p class=" page-content__block leading-6 text-[14px] pb-10 ">Over the past four years, I’ve
                       specialized in front-end
                       development, mastering HTML, CSS, JavaScript, and frameworks like React.js and Vue.js. My diverse
                       project experience, ranging from simple websites to complex applications, has significantly
@@ -556,6 +556,7 @@ definePageMeta(transition)
                   <div class="w-2 h-2   bg-tertiary rounded-full"></div>
                   <div class="w-[2px]  h-full bg-tertiary"></div>
                 </div>
+                
                 <div class="   gap-[3rem]  ">
                   <h1 class="font-semibold page-content__block mb-[1rem] page-content__block ">UI/UX Designer</h1>
                   <div class=" flex flex-col ">

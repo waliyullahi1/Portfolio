@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 		'vue3-carousel-nuxt'
 	],
 	css: [
-		'@/assets/scss/default.scss','~/assets/main.css'
+		'@/assets/scss/default.scss','~/assets/main.css','@/assets/font.css'
 	],
 	vite: {
 		css: {
