@@ -4,7 +4,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
 		general.isTransitionFinish = false
 		general.isTransitionStart = false
 		general.isTransitionStart = true
-		general.scrollLenis.stop()
+		
 
 		let tl = gsap.timeline({
 			onComplete() {
@@ -75,7 +75,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
 
 				general.isTransitionFinish = true
 				general.isTransitionStart = false
-				general.scrollLenis.start()
+				
 				done()
 			}
 		})
