@@ -28,7 +28,8 @@
 <template>
 
 	<div class="preloader z-50">
-		<div class="preloader-percent text-5xl h1">
+		<div class="preloader-percent text-center text-5xl h1">
+			 <h1 class="font-semibold tracking-widest text-5xl">Waliu Idowu</h1>
 			{{ percentage }}%
 		</div>
 	</div>

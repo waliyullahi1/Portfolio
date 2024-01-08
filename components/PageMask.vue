@@ -1,6 +1,6 @@
 <template>
 
-	<div class="page-mask"></div>
+	<div class="page-mask "></div>
 
 </template>
 

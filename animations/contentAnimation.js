@@ -4,12 +4,7 @@ export function contentAnimation({ type, element }) {
 	elements.forEach((el) => {
 		ScrollTrigger.create({
 			trigger: el,
-			animation: type === "text" ? useAnimateText(el) : (type === "image" ? useAnimateImage(el) : hero(el, per))
+			animation: type === "text" ? useAnimateText(el) : useAnimateImage(el)
 		})
-
-		// ScrollTrigger.create({
-		// 	trigger: el,
-		// 	animation: hero('.w-full', '.percentage p')
-		//   })
 	})
 }

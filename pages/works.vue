@@ -10,6 +10,15 @@ import gra4 from "@/assets/image/graphic5.jpg"
 import gra3 from "@/assets/image/graphic4.jpg"
 import gra2 from "@/assets/image/graphic3.jpg"
 import gra1 from "@/assets/image/graphic2.jpg"
+import { ref, onMounted, onUnmounted } from 'vue'
+
+
+
+
+
+
+
+
 const state = reactive({
 
     hero: [
@@ -84,7 +93,7 @@ const state = reactive({
 //       }, main.value);
 //     });
    
-definePageMeta(transition)
+
 const settings = ref({
     itemsToShow: 1,
     snapAlign: 'center',
@@ -113,20 +122,30 @@ watch(() =>
             contentAnimation({ type: 'image', element: '.page-content__block-photo' })
         }
     })
-
+    definePageMeta(transition)
 
 
 </script>
 <template>
-    <div :class="general.pageBg" ref="{main}">
-        <NuxtLayout name="custom" page-name="about" title="About">
-        </NuxtLayout>
-        <div class=" container mx-auto px-4">
+    <div   :class="general.pageBg">
+      
+            <TheHeader />
+        
+        
+        <div class=" ">
+          <div class="title-default w-full  h1 bg-[url('../assets/image/hero.jpg')] bg-cover bg-no-repeat ">
+		<div class=" bg-[#11141b]  bg-opacity-95  h-screen flex flex-col justify-center items-center w-full  ">
 
+			<h1 class="md:text-3xl title-default__wrap text-2xl  font-semibold">Let's See My Work</h1>
+			<h2 class=" title-default__wrap text-center tracking-wider"> Scroll down to Selected work I've taken on in the
+				past.</h2>
+
+		</div>
+	</div>
 <div class=" mt-40">
     <div class=" w-full py-10  ">
         <div
-            class=" static md:sticky top-32 bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            class=" static  bg-black 1 page-content grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
                 class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project1.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                 <img src="@/assets/image/project1.jpg" alt="  " class="h-full sm:hidden " srcset="">
@@ -183,7 +202,7 @@ watch(() =>
         </div>
 
         <div
-            class=" static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            class=" static  bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div class="hidden md:block">
                 <h2
                     class=" page-content__block text-3xl tracking-widest font-semibold text-primary text-center ">
@@ -274,7 +293,7 @@ watch(() =>
 
 
         <div
-            class=" static md:sticky top-32 bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            class=" static  bg-black 3 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
                 class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project3.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                 <img src="@/assets/image/project3.jpg" alt="  " class="h-full sm:hidden " srcset="">
@@ -313,7 +332,7 @@ watch(() =>
         </div>
 
         <div
-            class=" static md:sticky top-32 bg-black 4 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            class=" static  bg-black 4 page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
 
             <div class=" hidden md:block ">
                 <h2
@@ -424,7 +443,7 @@ watch(() =>
         </div>
 
         <div
-            class="static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            class="static  bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
             <div
                 class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/project5.jpg')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                 <img src="@/assets/image/project5.jpg" alt="  " class="h-full sm:hidden " srcset="">
@@ -466,7 +485,7 @@ watch(() =>
         </div>
 
         <div
-            class=" 6 static md:sticky top-32 bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            class=" 6 static  bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
 
             <div class=" hidden md:block ">
                 <h2

@@ -12,7 +12,7 @@
     <div class=" w-full  grid grid-rows-2 gap-2 place-content-end">
       <h1 class="text-xl page-content__block font-semibold tracking-widest">SOCIAL </h1>
       <div class="top-10 page-content__block w-fit items-center sm:left-7 left-3 justify-center  flex  gap-5">
-        <a href="">
+        <a href="https://twitter.com/wizzywise67">
           <div class="w-6   hover:scale-110 duration-300 text-white hover:text-gray-500  ">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208 208"
               version="1.1">
@@ -24,7 +24,7 @@
           </div>
         </a>
 
-        <a href="">
+        <a href="https://github.com/waliyullahi1">
           <div class="w-7  hover:scale-110 duration-300 text-white hover:text-gray-500 top-10  ">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"
               version="1.1">
@@ -37,7 +37,7 @@
         </a>
 
 
-        <a href="">
+        <a href="https://www.linkedin.com/in/waliu-idowu-50a594243">
           <div class="w-5  hover:scale-110 duration-300 text-white hover:text-gray-500 top-10  ">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208 208"
               version="1.1">
@@ -49,7 +49,7 @@
           </div>
         </a>
 
-        <a href="">
+        <a href="https://www.instagram.com/wise_grafix/">
           <div class="w-5  hover:scale-110 duration-300 text-white hover:text-gray-500 top-10  ">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" >
               <path

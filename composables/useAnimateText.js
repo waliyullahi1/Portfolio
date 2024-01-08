@@ -12,6 +12,5 @@ export function useAnimateText(el) {
 		})
 	}
 
-	
 	return tl
 }

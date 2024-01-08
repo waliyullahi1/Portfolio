@@ -63,7 +63,7 @@ onMounted(() => {
             <li   class="group   ">
              
                <div >
-                <NuxtLink  class="route">About</NuxtLink>
+                <NuxtLink to="" class="route">About</NuxtLink>
               </div> 
          
               

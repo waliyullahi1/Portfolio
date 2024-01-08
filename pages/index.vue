@@ -32,6 +32,7 @@ import nodejs from "../assets/image/nodejs.png"
 
 
 
+
 const main = ref();
 let ctx;
 let smoother;
@@ -39,9 +40,8 @@ let smoother;
 
 
 onMounted(() => {
-  // const tl = gsap.timeline()
-
-  gsap.to(percentage, {
+   const tl =gsap.timeline()
+ tl.to(percentage, {
     progress: 90,
     duration: 8,
     scrollTrigger: {
@@ -54,7 +54,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage1, {
+ tl.to(percentage1, {
     progress: 95,
     duration: 8,
     scrollTrigger: {
@@ -67,7 +67,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage2, {
+ tl.to(percentage2, {
     progress: 60,
     duration: 8,
     scrollTrigger: {
@@ -80,7 +80,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage3, {
+ tl.to(percentage3, {
     progress: 70,
     duration: 8,
     scrollTrigger: {
@@ -93,7 +93,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage4, {
+ tl.to(percentage4, {
     progress: 90,
     duration: 8,
     scrollTrigger: {
@@ -106,7 +106,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage5, {
+ tl.to(percentage5, {
     progress: 75,
     duration: 8,
     scrollTrigger: {
@@ -119,7 +119,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage6, {
+ tl.to(percentage6, {
     progress: 60,
     duration: 8,
     scrollTrigger: {
@@ -132,7 +132,7 @@ onMounted(() => {
 
   })
 
-  gsap.to(percentage7, {
+ tl.to(percentage7, {
     progress: 80,
     duration: 8,
     scrollTrigger: {
@@ -160,7 +160,7 @@ onMounted(() => {
 });
 // onUnmounted(() => {
 //   //ctx.revert();
-//   gsap.from('.percent', {
+//  tl.from('.percent', {
 //     progress: 0,
 //     duration: 1,
 //     scrollTrigger: {
@@ -315,7 +315,7 @@ definePageMeta(transition)
                       <div
                         class="py-4 relative   px-4 shadows animation  title-default__wrap bg-[#0a0f1a]  sm:w-80 h-64  w-64 sm:h-80 rounded-full flex justify-center ">
                         <div class="  rounded-full overflow-hidden    justify-center items-center  relative  bg-red-500">
-                          <img class=" w-[1300px] h-[300px]  bg-white " src="../assets/image/image.jpg" alt="" />
+                          <img class="   bg-white " src="../assets/image/sa.jpg" alt="" />
                         </div>
 
                       </div>
@@ -325,9 +325,10 @@ definePageMeta(transition)
                         class="text-[14px] h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
                         Full-stack
                         developer</h2>
-                      <h1 class="md:text-5xl h1 font-semibold text-3xl pb-3 capitalize title-default__wrap ">Waliu idowu
+                      <h1 class="md:text-5xl h1 animattext font-semibold text-3xl pb-3 capitalize title-default__wrap ">Waliu idowu
                       </h1>
-                      <p class="title-default__wrap mr-6">“Hi, I’m Waliu, a full-stack developer. I’ve mastered web
+                     
+                      <p class="title-default__wrap mr-6 ">“Hi, I’m Waliu, a full-stack developer. I’ve mastered web
                         development from frontend to backend,
                         enhancing
                         my skills and problem-solving</p>
@@ -424,11 +425,7 @@ definePageMeta(transition)
 
       </div>
     </div>
-    <!-- <NuxtLayout
-			name="custom"
-			pageame="index"
-			title="welcome"
-		/> -->
+    
 
     <section id="about"
       class="page-content about bg-[#11141b] py-20 npx tailwindcss font-['Poppins'] ./assets/inpute.css -o ./assets/output.css --watchpx-4 w-full md:px-0 mx-auto ">
@@ -436,8 +433,8 @@ definePageMeta(transition)
         <h1 class="  text-3xl text-center  tracking-wider py-8 page-content__block  font-normal">About Me</h1>
         <div class="md:flex block justify-center items-center gap-5">
           <div class="  md:w-1/3 w-full overflow-hidden px-2 h-96 py-2 shadows   border-4 bg-yellow-400 rounded-lg">
-            <div class="bg-[url('../assets/image/image.jpg')] page-content__block-photo bg-cover  w-full h-full">
-              <img src="../assets/image/image.jpg" class=" opacity-0 w-96" alt="">
+            <div class="bg-[url('../assets/image/waliu1.jpg')] page-content__block-photo bg-cover  w-full h-full">
+              <img src="../assets/image/waliu1.jpg" class=" opacity-0 w-96" alt="">
             </div>
 
           </div>
@@ -754,16 +751,16 @@ definePageMeta(transition)
     <section id="contact"
       class="  font-['Poppins'] bg-[url('../assets/image/hero.jpg')] bg-no-repeat justify-center bg-contain   ">
       <div class="w-full  bg-[#11141b]  flex justify-center bg-opacity-95 h-full ">
-        <div class="container items-center    block  md:flex justify-center">
-          <div class="  flex justify-center md:justify-end">
-            <div class="py-4 px-4 shadows bg-[#0a0f1a]  md:full h-full flex justify-center overflow-hidden ">
+        <div class="container grid sm:grid-cols-2 items-center    grid-cols-1 m justify-center">
+          <div class="   justify-center  md:justify-end">
+            <div class="py-4 px-4 shadows w-full bg-[#0a0f1a]  md:full h-full flex justify-center overflow-hidden ">
               <div class=" overflow-hiddenl  bg-red-500">
-                <img class=" w-full  bg-white " src="@/assets/image/hero.png" alt="" />
+                <img class=" w-1/  bg-white " src="@/assets/image/ffff.jpg" alt="" />
               </div>
 
             </div>
           </div>
-          <div class=" w-full px-2 page-content md:text-left text-center md:w-1/2 py-5">
+          <div class=" w-full px-2 page-content md:text-left text-center md:w-full py-5">
             <h2
               class="text-[14px] font-normal text-gray-300 capitalize font-['Poppins'] tracking-[.1rem] page-content__block">
               CONTACT ME
@@ -839,6 +836,30 @@ definePageMeta(transition)
   transform: scaleX(0);
   transition: transform 1s ease-in-out;
 }
+
+.animattext {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  animation: ripple 5s infinite;
+  
+  box-sizing: border-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+
+}
+@keyframes ripple {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .progress.active {
   transform: scaleX(1);

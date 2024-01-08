@@ -2,7 +2,7 @@ export default defineNuxtConfig({
 	pages: true,
 	modules: [
 		'vue3-carousel-nuxt'
-	  ],
+	],
 	css: [
 		'@/assets/scss/default.scss','~/assets/main.css'
 	],
@@ -20,7 +20,10 @@ export default defineNuxtConfig({
 		  tailwindcss: {},
 		  autoprefixer: {},
 		},
-	  },
+	},
+	plugins: [
+		{ src: '~/plugins/slow-scroll.js', mode: 'client' },
+	],
 	imports: {
 		dirs: ['store', 'utils', 'animations'],
 	},
