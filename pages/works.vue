@@ -194,7 +194,7 @@ watch(() =>
                 </ul>
 
                 <div class="w-full justify-center flex">
-                   <a target="_blank" href=https://abanise.vercel.app"
+                   <a target="_blank" href="https://abanise.vercel.app"
                         class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
                         visit </a>
                 </div>
@@ -290,6 +290,58 @@ watch(() =>
 
         </div>
 
+          <div
+            class=" static  bg-black page-content mt-48 grid grid-cols-1 md:grid-cols-2 mb-10 justify-center items-center gap-10">
+            <div
+                class="  rounded-xl skrew page-content__block-photo bg-[url('@/assets/image/projectvirex.png')] bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                <img src="@/assets/image/projectvirex.png" alt="  " class="h-full sm:hidden " srcset="">
+            </div>
+
+            <div>
+                <h2
+                    class=" page-content__block text-3xl font-semibold tracking-widest text-primary text-center">
+                    Virex codes
+                </h2>
+                <p class=" page-content__block mt-4 text-center">Built a platform that enables users to obtain virtual SMS numbers, allowing them to sign up for social networks, marketplaces, exchanges, freelance websites, and other online services without receiving spam or sharing their personal information. </p>
+                <ul class=" my-10  transition-all justify-center flex duration-300 flex-wrap gap-2">
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        vue3
+                    </li>
+
+                    <li
+                        class="text-white page-content__block  text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nuxt3
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Mangoodb
+                    </li>
+                    <li
+                        class="text-white  page-content__block text-xs px-3 py-1 rounded-full border w-fit  border-white">
+                        Nodejs
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        express.js
+                    </li>
+                    <li
+                        class="text-white text-xs px-3 py-1  page-content__block rounded-full border w-fit  border-white">
+                        Flutterwave
+                    </li>
+                    <li
+                        class="text-white text-xs  page-content__block px-3 py-1 rounded-full border w-fit  border-white">
+                        JWT
+                    </li>
+                </ul>
+
+                <div class="w-full justify-center flex">
+                   <a target="_blank" href="https://www.virex.codes"
+                        class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
+                        visit </a>
+                </div>
+            </div>
+        </div>
 
 
         <div
@@ -583,6 +635,8 @@ watch(() =>
 
 
         </div>
+
+
 
     </div>
     <div class="w-full flex justify-center">
