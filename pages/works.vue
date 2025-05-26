@@ -194,7 +194,7 @@ watch(() =>
                 </ul>
 
                 <div class="w-full justify-center flex">
-                   <a target="_blank" href="https://www.abaniseedu.com/"
+                   <a target="_blank" href=https://abanise.vercel.app"
                         class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
                         visit </a>
                 </div>
@@ -432,7 +432,7 @@ watch(() =>
                 </ul>
 
                 <div class="w-full justify-center flex">
-                   <a target="_blank" href="https://www.abaniseedu.com/qiuz"
+                   <a target="_blank" href="https://abanise.vercel.app/qiuz"
                         class=" font-norms  bg-primary rounded-xl overflow-visible py-1 px-6 mt-5 button ">
                         visit </a>
                 </div>
