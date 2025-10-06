@@ -14,7 +14,7 @@ module.exports = {
         advert: ['Advert', 'sans-serif'],
       },
       colors: {
-        primary: "#ffc209",
+        primary: "#facc15",
         secondary: "#11141b",
         tertiary: "#f55422",
       },

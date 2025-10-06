@@ -34,8 +34,7 @@
 
 ._container {
 	width: 100%;
-	padding-left: 32px;
-	padding-right: 32px;
+	
 }
 
 
