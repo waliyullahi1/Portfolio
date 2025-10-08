@@ -72,10 +72,10 @@ const projects = [
     link: "https://midjourney-black.vercel.app/",
   },
   {
-    title: "Exam Quiz Game",
+    title: "micakin",
     description: "This Website are already been exist but i just use to practices and check my skill",
     tools: ["Vue3", "Nuxt3"  ],
-    image: "project4.jpg",
+    image: "project6.jpg",
     link: "https://micahil.vercel.app/",
   },
     

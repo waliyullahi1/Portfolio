@@ -158,7 +158,7 @@ watch(() =>
 
 
 			 <section class="w-full page-content py-10 bg-[#11141b] ">
-      <div class="flex justify-center font-['Poppins']  w-[100%] bg-amber-400  md:px-20 px-2  mx-auto  ">
+      <div class="flex justify-center font-['Poppins']  w-[100%]   md:px-20 px-2  mx-auto  ">
         <div>
           <h1 class="sm:text-3xl text-center text-xl  tracking-wider py- page-content__block  font-normal">WORK & EXPERIENCE</h1>
           <div class=" w-full h-fit page-content__block flex justify-center items-cente">
@@ -198,7 +198,7 @@ watch(() =>
         </div>
       </div>
     </section>
-
+      <NavigationFooter></NavigationFooter>
 
 		</NuxtLayout>
 	</div>

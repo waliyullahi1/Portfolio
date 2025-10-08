@@ -22,27 +22,27 @@ watch(() =>
 
         <div class="title-efault h1 ">
           <div class="">
-            <section id="mySection"
-              class=" font-['Poppins'] bg-[url('../assets/image/saaa.jpg')] bg-no-repeat justify-center bg-contain h-[100vh] ">
-              <div class="w-full page-content bg- bg-[#11141b]/60 backdrop-invert backdrop-opacity-10  bg-opacity-70 h-full ">
+            <section id="mySection" style="height: 100dvh;"
+              class=" b font-['Poppins'] bg-[url('../assets/image/saaa.jpg')] bg-no-repeat justify-center bg-center sm:bg-left sm:bg-contain h-[100vh] ">
+              <div class="w-full page-content flex justify-center items-center bg- bg-[#11141b]/60 backdrop-invert backdrop-opacity-10  bg-opacity-70 h-full ">
                 <div>
 
 
 
                   <div
-                    class="container _container  justify-end md:pt-48 pt-28 static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
+                    class="  h-fit w-full bg-am justify-center  items-center static md:relative  gap mx-auto flex      gap-4 ">
 
 
                     <div
-                      class=" md:w-[70%] w-[100%]  bg  m  static lg:relative left-20 page-content l px-2 md:text-left textcenter m py-5">
+                      class=" md:w-[50%] w-[100%]  bg  m  static lg:relative left-20 page-content l px-2 md:text-left textcenter m py-5">
                       <h2
-                        class="text-[14px]  h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
+                        class="text-[16px]  h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
                         SOFTWARE DEVELOPER</h2>
                       <h1 class="md:text-5xl h1  font-semibold text-3xl pb-3 capitalize title-default__wrap ">
                         Waliyullahi idowu
                       </h1>
 
-                      <p class="title-default__wrap mr-6 ">“I'm Waliu, a software developer with a
+                      <p class="title-default__wrap leading-relaxed mr-6 ">“I'm Waliu, a software developer with a
                         passion for turning ideas into real-world applications. I build
                         everything from clean, responsive frontends to powerful backend systems
                         — always with a focus on performance, security, and usability.</p>
