@@ -1,24 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./components/**/*.{js,vue,ts}",
+    "./components/**/*.{vue,js,ts}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
     "./app.vue",
-    "./error.vue",
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#facc15",     // yellow
+        secondary: "#11141b",   // dark
+        tertiary: "#f55422",    // orange/red
+      },
       fontFamily: {
         advert: ['Advert', 'sans-serif'],
-      },
-      colors: {
-        primary: "#facc15",
-        secondary: "#11141b",
-        tertiary: "#f55422",
       },
     },
   },
   plugins: [],
-}
+};

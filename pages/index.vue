@@ -1,6 +1,6 @@
 <script setup>
 
-definePageMeta(transition)
+ definePageMeta(transition)
 
 watch(() =>
   [general.isTransitionFinish, general.isPreloaderVisible],
@@ -24,19 +24,19 @@ watch(() =>
           <div class="">
             <section id="mySection"
               class=" font-['Poppins'] bg-[url('../assets/image/saaa.jpg')] bg-no-repeat justify-center bg-contain h-screen ">
-              <div class="w-full page-content bg-[#11141b]  bg-opacity-70 h-full ">
+              <div class="w-full page-content bg- bg-[#11141b]/60 backdrop-invert backdrop-opacity-10  bg-opacity-70 h-full ">
                 <div>
 
 
 
                   <div
-                    class="container _container lg:pt-62 justify-end md:pt-48 pt-28 static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
+                    class="container _container lg6 justify-end md:pt-48 pt-28 static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
 
 
                     <div
-                      class=" md:w-[70%] w-[100%]  static lg:relative left-20 page-content l px-2 md:text-left textcenter m py-5">
+                      class=" md:w-[70%] w-[100%]  bg  m  static lg:relative left-20 page-content l px-2 md:text-left textcenter m py-5">
                       <h2
-                        class="text-[14px] h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
+                        class="text-[14px]  h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
                         SOFTWARE DEVELOPER</h2>
                       <h1 class="md:text-5xl h1  font-semibold text-3xl pb-3 capitalize title-default__wrap ">
                         Waliyullahi idowu

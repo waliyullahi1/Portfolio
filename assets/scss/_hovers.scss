@@ -1,3 +1,5 @@
+@use './variables' as *;
+
 .hover-fadein {
 	transition: $default-transition;
 }

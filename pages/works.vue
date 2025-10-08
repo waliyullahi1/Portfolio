@@ -30,7 +30,7 @@ const projects = [
     title: "Virex codes",
     description: "Built a platform that enables users to obtain virtual SMS numbers, allowing them to sign up for social networks, marketplaces, exchanges, freelance websites, and other online services without receiving spam or sharing their personal information.",
     tools: ["Vue3", "Nuxt3", "Music API" ],
-    image: "project3.jpg",
+    image: "virex.png",
     link: "https://www.virex.codes/",
   },
   {
@@ -61,8 +61,22 @@ const projects = [
     title: "Exam Quiz Game",
     description: "I built a quiz game for Abanise that they use to gift years bonus to customers who pass the exam. The quiz consists of three questions about the business, and the customer must score at least 2 out of 3 to pass. If the customer passes the exam, they will receive a 1 GB data bundle for any network. Also i implemented a feature that prevents customers from playing the game twice on the same phone number or device.",
     tools: ["Vue3", "Nuxt3","Mangoodb","Nodejs", "express.js", "Network API", "JWT"  ],
-    image: "project3.jpg",
-    link: "https://crypto-web-5og7.vercel.app/",
+    image: "project4.jpg",
+    link: "https://www.abaniseedu.com/qiuz",
+  },
+  {
+    title: "Midjourning",
+    description: "this not my first project but the project i save to github before my system corrupt, built this platform for practicing your coding skills and learning how to use GitHub. The platform allows owners to sell shoes, the latest fashion shows, and some of the latest clothes. It’s great that you are using your skills to create something useful and practical.",
+    tools: ["Vue3", "Nuxt3","Mangoodb","Nodejs", "express.js", "GitHub"],
+    image: "project5.jpg",
+    link: "https://midjourney-black.vercel.app/",
+  },
+  {
+    title: "Exam Quiz Game",
+    description: "This Website are already been exist but i just use to practices and check my skill",
+    tools: ["Vue3", "Nuxt3"  ],
+    image: "project4.jpg",
+    link: "https://micahil.vercel.app/",
   },
     
 ]
@@ -172,7 +186,7 @@ watch(() =>
             contentAnimation({ type: 'image', element: '.page-content__block-photo' })
         }
     })
-definePageMeta(transition)
+ definePageMeta(transition)
 
 
 </script>
@@ -200,9 +214,15 @@ definePageMeta(transition)
                         index % 2 !== 0 ? 'md:[direction:rtl]' : ''
                     ]">
 
-                        <div :class="[index % 2 === 0 ? 'skrew' : 'skrew1', `page-content__block-photo bg-[url('./project_images/${value.image}')]`] "
-                            class="  rounded-xl   grid bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                            <img :src="`./project_images/${value.image}`" alt="  " class="h-full sm:den " srcset="">
+                        <div :class="[index % 2 === 0 ? 'skrew' : 'skrew1', ``] "
+                        
+                            class="  rounded-xl page-content__block-photo    grid bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
+                             <img :src="`./project_images/${value.image}`" alt="  " class="h-full sm:hidden block page-content__block-photo  " srcset="">
+                              <div class="absolute inset-0 rounded-xl bg-cover bg-center"
+                              :style="{ backgroundImage: `url(/project_images/${value.image})` }"
+                              >
+                                
+                              </div>
                         </div>
 
                         <div>

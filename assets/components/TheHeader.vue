@@ -38,14 +38,14 @@ onMounted(() => {
 
 	<div>
 
-    <header class="fixed w-full  z-10 header shodow top-0 left-0 data-lenis-prevent">
+    <header class="fixed w-full bg-white z-10 header shodow top-0 left-0 data-lenis-prevent">
       <div class="mx-auto flex bloc px-2 container">
        
         <nav class=" md:flex block  mt-5  justify-between w-full items-start  sm:items-center ">
-          <div>
-           <RouterLink to="/" class="  font-['Advert'] text-white  text-[1.7rem] md:text-[2.5rem]"><span
-                  class=" text-primary   text-primary">Wa</span> <span class="text-white">liu</span></RouterLink>
-          </div>
+          <ul>
+            <li><a href="/index.html" class="  font-advert font-light text-[1.7rem] md:text-[2.5rem]"><span
+                  class=" text-primary animationText text-green-500">Wa</span>liu</a></li>
+          </ul>
 
 
           <ul :class="general.rotate ? 'h-0 py-0 opacity-0':' h-72 py-4 opacity-100 '"  class="font-normal md:opacity-100 md:h-full place-items-center  overflow-hidden border-t-2 duration-700 border-primary grid grid-cols-1  md:border-none gr md:flex justify-between items-center   d text-lg gap-4  md:gap-11 font-['Advert'] list-none">

@@ -71,7 +71,7 @@ const experiences = [
   }
 ];
 
-definePageMeta(transition)
+ definePageMeta({transition})
 
 watch(() =>
 	[general.isTransitionFinish, general.isPreloaderVisible],
@@ -95,10 +95,10 @@ watch(() =>
 					<div class="">
 						<section id="mySection"
 							class="   font-['Poppins'] bg-[url('../assets/image/waliu2.jpg')] bg-no-repeat justify-center bg-contain  ">
-							<div class="w-full page-content bg-[#11141b] bg-opacity-70 h-full ">
+							<div class="w-full page-content bg-[#11141b]/60 backdrop-invert backdrop-opacity-10 h-full ">
 								<div>
 									<div
-										class="container _container lg:pt-62 pt- justify-end md:pt-28   pt-36  static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
+										class="container _container justify-end md:pt-48 pt-28   static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
 
 
 										<div
@@ -162,7 +162,7 @@ watch(() =>
         <div>
           <h1 class="sm:text-3xl text-center text-xl  tracking-wider py- page-content__block  font-normal">WORK & EXPERIENCE</h1>
           <div class=" w-full h-fit page-content__block flex justify-center items-cente">
-            <div class="w-96 h-[1px]   ctxx"></div>
+            <div class="w-96 h-[1px]    ctxx"></div>
           </div>
           <div class="gap-10">
             <div class="  grid grid-cols-1 w-[80%] space-y-10 duration-500 group-hover:scale-105  h-full py-6 md:px-6 px-2  bg-[#0c0f16]">
@@ -170,8 +170,8 @@ watch(() =>
 
               <div v-for="item in experiences" class="flex  justify-start gap-6">
                 <div class="flex  flex-col mt-2  justify-c gap-[1rem] items-center">
-                  <div class="w-2 h-2    bg-primary rounded-full"></div>
-                  <div class="w-[2px]  h-full bg-primary"></div>
+                  <div class="w-2 h-2  bg-[#ffc209] rounded-full"></div>
+                  <div class="w-[2px] bg-[#ffc209] h-full bg-primary"></div>
                 </div>
                 <div class="   space-y-3 gap-[3rem]  ">
                   <h1 class="font-semibold page-content__block ">{{item.title}}</h1>
@@ -205,6 +205,7 @@ watch(() =>
 
 </template>
 <style lang='scss' scoped>
+
 .page-content__block {
 	
 }

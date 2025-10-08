@@ -1,18 +1,17 @@
 
 *,
+*,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	outline: none;
+  box-sizing: border-box;
 }
 
+/* Don’t force margin/padding to 0 everywhere */
 body {
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
 }
+
 
 a {
 	text-decoration: none;

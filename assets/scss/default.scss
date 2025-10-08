@@ -1,4 +1,8 @@
-@import "./reset";
-@import "./general";
-@import "./text";
-@import "./hovers";
+
+@use "./variables" as *;
+@use "./mixins" as *;
+
+@use "./reset" as *;
+@use "./general" as *;
+@use "./text" as *;
+@use "./hovers" as *;

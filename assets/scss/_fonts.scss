@@ -1,3 +1,6 @@
+@use './mixins' as *;
+
+
 @include font-face(
 	"Grotesk-Medium",
 	"@/assets/fonts/Grotesk-Medium",

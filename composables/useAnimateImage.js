@@ -5,7 +5,7 @@ export function useAnimateImage(el) {
 
 	if(element) {
 		tl.set(element, {
-			overflow: 'hidden',
+			// overflow: 'hidden',
 			pointerEvents: 'none'
 		})
 

@@ -283,7 +283,7 @@ let mouseOver = () => {
 let mouseLeave = () => {
   console.log('Mouse has left the element');
 }
-definePageMeta(transition)
+// definePageMeta(transition)
 
 </script>
 <template>

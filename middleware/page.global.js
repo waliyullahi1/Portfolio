@@ -1,4 +1,9 @@
 export default defineNuxtRouteMiddleware((to, from) => {
+  // 🧩 Ensure meta objects exist
+  from.meta.pageTransition = from.meta.pageTransition || {}
+  to.meta.pageTransition = to.meta.pageTransition || {}
+
+  // 🧠 Define the "leave" animation
   from.meta.pageTransition.onLeave = (el, done) => {
     general.isTransitionFinish = false
     general.isTransitionStart = true
@@ -53,10 +58,10 @@ export default defineNuxtRouteMiddleware((to, from) => {
     }, 0)
   }
 
+  // 🧠 Define the "enter" animation
   to.meta.pageTransition.onEnter = (el, done) => {
     useChangePageBg()
 
-    // ✅ Always reset state before animating
     gsap.set(el.querySelector('.page-wrap'), { xPercent: 50 })
     gsap.set(el.querySelector('.page-mask'), { opacity: 0 })
     gsap.set(el.querySelector('.header'), { yPercent: 0 })
