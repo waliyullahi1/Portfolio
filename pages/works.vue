@@ -219,7 +219,7 @@ watch(() =>
                             class="  rounded-xl page-content__block-photo    grid bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
                              <img :src="`./project_images/${value.image}`" alt="  " class="h-full sm:hidden block page-content__block-photo  " srcset="">
                               <div class="absolute inset-0 rounded-xl bg-cover bg-center"
-                              :style="{ backgroundImage: `url(/project_images/${value.image})` }"
+                              :style="{ backgroundImage: `url(./project_images/${value.image})` }"
                               >
                                 
                               </div>
