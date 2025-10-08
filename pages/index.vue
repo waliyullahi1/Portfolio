@@ -30,14 +30,15 @@ watch(() =>
 
 
                   <div
-                    class="  h-fit w-full bg-am justify-center  items-center static md:relative  gap mx-auto flex      gap-4 ">
+                    class="  sm:pt-24 pt-40 h-fit w-full bg-am justify-center  items-center static md:relative  gap mx-auto flex      gap-4 ">
 
 
                     <div
-                      class=" md:w-[50%] w-[100%]  bg  m  static lg:relative left-20 page-content l px-2 md:text-left textcenter m py-5">
+                      class=" lg:w-[50%] md:w-[70%] w-[100%]  bg  m  static lg:relative left-20 page-content l px-2 md:text-left textcenter m py-5">
                       <h2
                         class="text-[16px]  h1 font-normal title-default__wrap text-gray-300 capitalize font-['Poppins'] tracking-[.1rem]">
-                        SOFTWARE DEVELOPER</h2>
+                        SOFTWARE DEVELOPER
+                      </h2>
                       <h1 class="md:text-5xl h1  font-semibold text-3xl pb-3 capitalize title-default__wrap ">
                         Waliyullahi idowu
                       </h1>
@@ -46,7 +47,7 @@ watch(() =>
                         passion for turning ideas into real-world applications. I build
                         everything from clean, responsive frontends to powerful backend systems
                         — always with a focus on performance, security, and usability.</p>
-
+                          <Typewriter/>
                       <div class="flex title-default__wrap md:justify-start justify-center gap-5 mt-10 ">
                         <button
                           class=" shadows  h1 w-fit text-[14px] bg-gray-700  hover:bg-gray-400 hover:text-white duration-700 border-2  border-gray-400 text-white font-normal py-2 px-2 tracking-[.2rem] rounded-full">
