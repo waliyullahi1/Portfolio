@@ -30,7 +30,7 @@ watch(() =>
 
 
                   <div
-                    class="container _container lg6 justify-end md:pt-48 pt-28 static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
+                    class="container _container  justify-end md:pt-48 pt-28 static md:relative  gap mx-auto md:flex    block mb-10  gap-4 ">
 
 
                     <div

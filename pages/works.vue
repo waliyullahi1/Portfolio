@@ -217,12 +217,12 @@ watch(() =>
                         <div :class="[index % 2 === 0 ? 'skrew' : 'skrew1', ``] "
                         
                             class="  rounded-xl page-content__block-photo    grid bg-cover bg-no-repeat justify-center   sm:h-96 h-fit overflow-hidden">
-                             <img :src="`./project_images/${value.image}`" alt="  " class="h-full sm:hidden block page-content__block-photo  " srcset="">
+                             <!-- <img :src="`./project_images/${value.image}`" alt="  " class="h-full sm:hidden block page-content__block-photo  " srcset="">
                               <div class="absolute inset-0 rounded-xl bg-cover bg-center"
                               :style="{ backgroundImage: `url(./project_images/${value.image})` }"
                               >
                                 
-                              </div>
+                              </div> -->
                         </div>
 
                         <div>
