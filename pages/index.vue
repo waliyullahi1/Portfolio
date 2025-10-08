@@ -23,7 +23,7 @@ watch(() =>
         <div class="title-efault h1 ">
           <div class="">
             <section id="mySection"
-              class=" font-['Poppins'] bg-[url('../assets/image/saaa.jpg')] bg-no-repeat justify-center bg-contain h-screen ">
+              class=" font-['Poppins'] bg-[url('../assets/image/saaa.jpg')] bg-no-repeat justify-center bg-contain h-[100vh] ">
               <div class="w-full page-content bg- bg-[#11141b]/60 backdrop-invert backdrop-opacity-10  bg-opacity-70 h-full ">
                 <div>
 

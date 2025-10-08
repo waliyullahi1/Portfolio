@@ -158,14 +158,14 @@ watch(() =>
 
 
 			 <section class="w-full page-content py-10 bg-[#11141b] ">
-      <div class="flex justify-center font-['Poppins']  w-[100%]  px-20  mx-auto  ">
+      <div class="flex justify-center font-['Poppins']  w-[100%] bg-amber-400  md:px-20 px-2  mx-auto  ">
         <div>
           <h1 class="sm:text-3xl text-center text-xl  tracking-wider py- page-content__block  font-normal">WORK & EXPERIENCE</h1>
           <div class=" w-full h-fit page-content__block flex justify-center items-cente">
             <div class="w-96 h-[1px]    ctxx"></div>
           </div>
           <div class="gap-10">
-            <div class="  grid grid-cols-1 w-[80%] space-y-10 duration-500 group-hover:scale-105  h-full py-6 md:px-6 px-2  bg-[#0c0f16]">
+            <div class="  grid grid-cols-1 lg:w-[80%] w-full space-y-10 duration-500 group-hover:scale-105  h-full py-6 md:px-6 px-2  bg-[#0c0f16]">
              
 
               <div v-for="item in experiences" class="flex  justify-start gap-6">
