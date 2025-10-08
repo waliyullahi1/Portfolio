@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import gra10 from "@/assets/image/graphic12.jpg"
 import gra9 from "@/assets/image/graphic11.jpg"
 import gra8 from "@/assets/image/graphic10.jpg"
@@ -650,7 +650,7 @@ watch(() =>
     class="page-content__block p1"
 >
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at, rerum, atque odio molestias fugit vel facere iure nulla maiores pariatur cum libero beatae impedit iusto enim officiis, minima animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat at, rerum, atque odio molestias fugit vel facere iure nulla maiores pariatur cum libero beatae impedit iusto enim officiis, minima animi.
-</div> -->
+</div> 
 </div>
     </div>
 </template>
@@ -787,4 +787,4 @@ body {
     height: fit-content !important;
 
 }
-</style>
+</style> -->
